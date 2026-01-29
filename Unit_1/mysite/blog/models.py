@@ -10,7 +10,7 @@ class PublishedManager(models.Manager):
         )
 
 
-class post(models.Model):
+class Post(models.Model):
     class status(models.TextChoices):
         DRAFT = 'DF', 'Draft'
         PUBLISHED = 'PB', 'Published'
